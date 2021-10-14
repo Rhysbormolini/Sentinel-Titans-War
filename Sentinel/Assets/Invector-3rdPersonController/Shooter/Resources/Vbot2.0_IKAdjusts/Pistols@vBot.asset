@@ -84,7 +84,7 @@ MonoBehaviour:
   - name: Standing
     weaponHandOffset:
       position: {x: 0, y: 0, z: 0}
-      eulerAngles: {x: 0, y: 0, z: 0}
+      eulerAngles: {x: -0, y: 0, z: 0}
     weaponHintOffset:
       position: {x: 0, y: 0, z: 0}
       eulerAngles: {x: -0, y: 0, z: 0}

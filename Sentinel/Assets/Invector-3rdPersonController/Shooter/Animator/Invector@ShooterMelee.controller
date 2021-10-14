@@ -1062,9 +1062,7 @@ AnimatorController:
     - serializedVersion: 2
       m_State: {fileID: 1102508079144104192}
       m_Motion: {fileID: 206278438057649234}
-    m_Behaviours:
-    - m_State: {fileID: 1102508079144104192}
-      m_StateMachineBehaviours: []
+    m_Behaviours: []
     m_BlendingMode: 0
     m_SyncedLayerIndex: 0
     m_DefaultWeight: 0
@@ -7988,40 +7986,8 @@ BlendTree:
   m_Name: Aiming Fire Weapon
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400006, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
     m_Motion: {fileID: 7400012, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
     m_Threshold: 2
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400008, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 3
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400014, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 4
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 206148968813988188}
-    m_Threshold: 5
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -17974,40 +17940,8 @@ BlendTree:
   m_Name: Idle
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
-    m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 37c6cfe59f56e8a4799011397a870a8b, type: 3}
+    m_Motion: {fileID: 7400000, guid: 53837a0b349e2e142a0ab73d101334eb, type: 3}
     m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 12e47c51ad139a64ab80bb5d185aeb96, type: 3}
-    m_Threshold: 2
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400010, guid: bd68d75f916fcab4797c60bb57d4c952, type: 3}
-    m_Threshold: 3
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400004, guid: a01238fa7a5ea6343aa78fa4f98baf3f, type: 3}
-    m_Threshold: 4
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -18867,51 +18801,11 @@ BlendTree:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Blend Tree
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400002, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400004, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 2
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400010, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 3
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400016, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 4
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: d061db31840de5840905cbb32d538280, type: 3}
-    m_Threshold: 5
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
+  m_Childs: []
   m_BlendParameter: UpperBody_ID
   m_BlendParameterY: InputHorizontal
-  m_MinThreshold: 1
-  m_MaxThreshold: 5
+  m_MinThreshold: 0
+  m_MaxThreshold: 0
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
@@ -19732,47 +19626,7 @@ BlendTree:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UpperBody Pose
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400002, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400004, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 2
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400010, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 3
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400016, guid: da29dc06830beb446bcfafbf72a11bc7, type: 3}
-    m_Threshold: 4
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: d061db31840de5840905cbb32d538280, type: 3}
-    m_Threshold: 5
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: InputHorizontal
-    m_Mirror: 0
+  m_Childs: []
   m_BlendParameter: UpperBody_ID
   m_BlendParameterY: InputHorizontal
   m_MinThreshold: 1
@@ -33195,7 +33049,7 @@ AnimatorStateMachine:
     m_Position: {x: 264, y: 156, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102929133186789452}
-    m_Position: {x: 264, y: 72, z: 0}
+    m_Position: {x: 260, y: 70, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:
@@ -33466,10 +33320,8 @@ AnimatorStateMachine:
     m_Position: {x: 320, y: 230, z: 0}
   m_AnyStateTransitions: []
   m_EntryTransitions:
-  - {fileID: 1109644809410165090}
   - {fileID: 1109081263157749386}
   - {fileID: 1109095565831211392}
-  - {fileID: 1109585478970868482}
   m_StateMachineTransitions:
   - first: {fileID: 0}
     second:
