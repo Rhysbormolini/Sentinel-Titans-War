@@ -6245,7 +6245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &162599095
 Transform:
   m_ObjectHideFlags: 0
@@ -45140,8 +45140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8a4669d571a2dd4790aa8b00e267356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zapZap: {fileID: 1146075977}
-  shotTime: 0.85
+  zapZap: {fileID: 1346912740}
+  shotTime: 0.8
 --- !u!4 &1361511957 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4817410906446740, guid: 1e6c72f3eacde6c4fa1f5824e22ce56c, type: 3}
@@ -75191,9 +75191,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 0
-  selectedToolbar: 5
+  selectedToolbar: 0
   weaponCategory: MyCategory
-  shootFrequency: 0.5
+  shootFrequency: 1
   isInfinityAmmo: 1
   ammo: 8
   ignoreTags: []
@@ -75221,7 +75221,19 @@ MonoBehaviour:
       m_Calls: []
   onShot:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1346912740}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onEmptyClip:
     m_PersistentCalls:
       m_Calls: []
@@ -75244,7 +75256,7 @@ MonoBehaviour:
   ammoID: 13
   moveSetID: 2
   upperBodyID: 2
-  shotID: 0
+  shotID: 1
   reloadID: 1
   equipID: 0
   alignRightHandToAim: 0
@@ -82676,7 +82688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 0
+  selectedToolbar: 3
   hideWeaponsAutomatically: 0
   hideWeaponsTimer: 5
   lockInventoryInputOnLock: 0
@@ -82791,6 +82803,7 @@ GameObject:
   - component: {fileID: 5917314030072938693}
   - component: {fileID: 5917314030072938694}
   - component: {fileID: 5917314030072938695}
+  - component: {fileID: 5917314030072938713}
   - component: {fileID: 5917314030072938688}
   - component: {fileID: 5917314030072938689}
   - component: {fileID: 5917314030072938690}
@@ -82799,10 +82812,9 @@ GameObject:
   - component: {fileID: 5917314030072938717}
   - component: {fileID: 5917314030072938718}
   - component: {fileID: 5917314030072938719}
-  - component: {fileID: 5917314030072938712}
-  - component: {fileID: 5917314030072938713}
-  - component: {fileID: 5917314030072938698}
   - component: {fileID: 1913071679}
+  - component: {fileID: 5917314030072938712}
+  - component: {fileID: 5917314030072938698}
   m_Layer: 8
   m_Name: vShooterController_SpartanHoplite
   m_TagString: Player
