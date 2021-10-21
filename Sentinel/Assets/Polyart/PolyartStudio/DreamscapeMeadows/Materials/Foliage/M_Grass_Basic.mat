@@ -194,7 +194,7 @@ Material:
     - _TrunkBendFactor: {r: 1, g: 0, b: 0, a: 0}
     - _WindFade: {r: 50, g: 20, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &7964847111180871764
+--- !u!114 &8464574595761386700
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
